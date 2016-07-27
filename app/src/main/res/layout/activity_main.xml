@@ -8,12 +8,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
+        android:hint="  ID "
         android:background="#dce7f7f3"
         android:id="@+id/et_id"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#dce7f7f3"
+        android:hint="  Password "
         android:layout_marginTop="10dp"
         android:id="@+id/et_pw"/>
     <Button
@@ -27,13 +29,19 @@
         android:layout_height="wrap_content"
         android:text="Register for a new account"
         android:textAlignment="center"
-        android:layout_marginTop="330dp"
+        android:layout_marginTop="350dp"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="sign up"
-        android:id="@+id/bt_register"
+        android:id="@+id/bt_join"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot my password"
+        android:textAlignment="center"
         />
 
 
